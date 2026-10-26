@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    {{include:head}}
+    <title>تماس با ما | خشت ۱۲۳</title>
+    <meta name="description" content="نشانی، تلفن و شبکه‌های اجتماعی خشت ۱۲۳." />
+    <link rel="canonical" href="https://khesht123.ir/card" />
+    <meta property="og:title" content="تماس با ما | خشت ۱۲۳" />
+    <meta property="og:description" content="نشانی، تلفن و شبکه‌های اجتماعی خشت ۱۲۳." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fa_IR" />
+    
+  </head>
+  <body data-page="card">
+    {{include:icons}}
+    {{include:header}}
+    <main id="main">
+      <section class="hero" data-page="card">
+        <!-- جای عکس: public/media/hero-card.jpg -->
+        <img class="hero__image" src="/media/hero-card.jpg" alt="تلفن و کارت خشت روی میز" />
+        <div class="hero__content">
+          
+          <h1>تماس با خشت</h1>
+          <p>نشانی، تلفن و شبکه‌های ارتباطی</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap grid grid--2" style="align-items:start">
+          <div class="contact-list">
+          <div class="section__head" data-reveal>
+            <p class="eyebrow">تماس با خشت</p>
+            <h2>راه‌های ارتباطی</h2>
+          </div>
+            <div class="contact-item tilt" data-reveal><svg class="icon"><use href="#i-pin"/></svg><div><strong>نشانی</strong><span data-site="address">البرز، جاده قدیم کرج قزوین، سهیلیه، کیلومتر ۸، بلوار اصلی، نبش کوچه نسترن شرقی ۴</span></div></div>
+            <a class="contact-item tilt" data-reveal href="tel:+989122615643"><svg class="icon"><use href="#i-phone"/></svg><div><strong>تلفن</strong><span dir="ltr" data-site="phone">09122615643</span></div></a>
+            <div class="contact-item tilt" data-reveal><svg class="icon"><use href="#i-globe"/></svg><div><strong>وب‌سایت</strong><span dir="ltr">khesht123.com · khesht123.ir</span></div></div>
+            <div data-reveal style="margin-top:12px">
+              <p class="eyebrow" style="margin-bottom:12px">شبکه‌های اجتماعی</p>
+              {{include:social}}
+            </div>
+          </div>
+          <div data-reveal>
+            <div class="map-placeholder" role="img" aria-label="نقشه موقعیت خشت">
+              <div><svg class="icon"><use href="#i-pin"/></svg><p>نقشه‌ی موقعیت: سهیلیه، کیلومتر ۸ جاده قدیم کرج–قزوین<br/>(کد embed نقشه — نشان، OSM یا گوگل — اینجا قرار می‌گیرد)</p></div>
+            </div>
+            <p style="margin-top:32px"><button class="btn" type="button" data-open-consult><svg class="icon"><use href="#i-chat"/></svg>درخواست مشاوره</button></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{include:consult-modal}}
+    {{include:footer}}
+  </body>
+</html>

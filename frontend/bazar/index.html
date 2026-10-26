@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    {{include:head}}
+    <title>تحلیل بازار | خشت ۱۲۳</title>
+    <meta name="description" content="قیمت طلا، سکه، دلار و یورو، برآورد قیمت مناطق و تحلیل بازار املاک خشت." />
+    <link rel="canonical" href="/bazar/" />
+    <meta property="og:title" content="تحلیل بازار | خشت ۱۲۳" />
+    <meta property="og:description" content="قیمت طلا، سکه، دلار و یورو، برآورد قیمت مناطق و تحلیل بازار املاک خشت." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fa_IR" />
+    
+  </head>
+  <body data-page="bazar">
+    {{include:icons}}
+    {{include:header}}
+    <main id="main">
+      <section class="hero" data-page="bazar">
+        <!-- جای عکس: public/media/hero-bazar.jpg -->
+        <img class="hero__image" src="/media/hero-bazar.jpg" alt="چشم‌انداز شهر هنگام غروب" />
+        <div class="hero__content">
+          
+          <h1>نبض بازار را بشناسید</h1>
+          <p>تصمیم آگاهانه‌تر با تحلیل بازار</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <div class="section__head" data-reveal>
+            <p class="eyebrow">طلا · سکه · ارز</p>
+            <h2>قیمت‌های آنلاین</h2>
+            <p class="lede">قیمت‌ها از سرویس نوسان گرفته می‌شوند و هر چند دقیقه به‌روز می‌شوند.</p>
+          </div>
+          <div class="quotes" data-market-quotes data-order="usd,eur,gold,coin">
+            <article class="quote"><svg class="icon"><use href="#i-gold"/></svg><span>طلا</span><strong>—</strong><small>تومان</small></article>
+            <article class="quote"><svg class="icon"><use href="#i-coin"/></svg><span>سکه</span><strong>—</strong><small>تومان</small></article>
+            <article class="quote"><svg class="icon"><use href="#i-dollar"/></svg><span>دلار</span><strong>—</strong><small>تومان</small></article>
+            <article class="quote"><svg class="icon"><use href="#i-euro"/></svg><span>یورو</span><strong>—</strong><small>تومان</small></article>
+          </div>
+          <p class="quotes-meta" data-quotes-meta></p>
+        </div>
+      </section>
+      <section class="section section--dark">
+        <div class="wrap">
+          <div class="section__head section__head--center" data-reveal>
+            <p class="eyebrow">محدوده‌های تحت پوشش</p>
+            <h2>تخمین قیمت ملک و زمین</h2>
+          </div>
+          <div class="grid grid--2" data-area-prices>
+            <article class="service tilt" data-reveal>
+              <span class="service__num" aria-hidden="true">01</span>
+              <div class="service__icon z2"><svg class="icon"><use href="#i-pin"/></svg></div>
+              <h3 class="z1">مهرشهر، کرج</h3>
+              <p class="z1">[برآورد قیمت — توسط مدیر سایت وارد می‌شود]</p>
+            </article>
+            <article class="service tilt" data-reveal>
+              <span class="service__num" aria-hidden="true">02</span>
+              <div class="service__icon z2"><svg class="icon"><use href="#i-pin"/></svg></div>
+              <h3 class="z1">سهیلیه، البرز</h3>
+              <p class="z1">[برآورد قیمت — توسط مدیر سایت وارد می‌شود]</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrap">
+          <div class="section__head" data-reveal>
+            <p class="eyebrow">تحلیل</p>
+            <h2>تحلیل بازار و اخبار</h2>
+          </div>
+          <div class="grid grid--3">
+            <a class="card tilt" data-reveal data-cat="market" href="/mag/?cat=market">
+              <div class="card__media"><img src="/media/mag-2.jpg" alt="وضعیت بازار املاک کرج — یادداشت نمونه" loading="lazy" /></div>
+              <div class="card__body"><p class="article-meta">تحلیل بازار</p><h3>وضعیت بازار املاک کرج — یادداشت نمونه</h3><p>تحلیل کوتاه شرایط معامله و نقدینگی.</p><span class="card__more">بیشتر بخوانید <svg class="icon"><use href="#i-arrow-left"/></svg></span></div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{include:consult-modal}}
+    {{include:footer}}
+  </body>
+</html>

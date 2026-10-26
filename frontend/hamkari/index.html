@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    {{include:head}}
+    <title>همکاری | خشت ۱۲۳</title>
+    <meta name="description" content="همکاری با خشت: برندهای همکار، فایل‌های شریک و فرم درخواست همکاری." />
+    <link rel="canonical" href="/hamkari/" />
+    <meta property="og:title" content="همکاری | خشت ۱۲۳" />
+    <meta property="og:description" content="همکاری با خشت: برندهای همکار، فایل‌های شریک و فرم درخواست همکاری." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fa_IR" />
+    
+  </head>
+  <body data-page="hamkari">
+    {{include:icons}}
+    {{include:header}}
+    <main id="main">
+      <section class="hero" data-page="hamkari">
+        <!-- جای عکس: public/media/hero-hamkari.jpg -->
+        <img class="hero__image" src="/media/hero-hamkari.jpg" alt="دست دادن در کنار یک پروژه ساختمانی" />
+        <div class="hero__content">
+          
+          <h1>باهم راه‌های بیشتری داریم</h1>
+          <p>اگر در دنیای ملک و ساخت‌وساز فعالیت می‌کنید، شاید فرصت بعدی یک همکاری مشترک باشد</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <div class="section__head" data-reveal>
+            <p class="eyebrow">همکاران</p>
+            <h2>برندها و کسب‌وکارهای همکار</h2>
+          </div>
+          <div class="grid grid--3" data-partners>
+            <article class="service tilt" data-reveal>
+              <span class="service__num" aria-hidden="true">01</span>
+              <div class="service__icon z2"><svg class="icon"><use href="#i-handshake"/></svg></div>
+              <h3 class="z1">[برند همکار]</h3>
+              <p class="z1">معرفی همکاری. فایل‌های شریک بعداً به همین بخش وصل می‌شوند.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section section--tight">
+        <div class="wrap">
+          <div class="section__head" data-reveal>
+            <p class="eyebrow">فرم همکاری</p>
+            <h2>درخواست همکاری</h2>
+          </div>
+          <form class="form" data-collab-form data-reveal>
+            <input type="text" name="website" tabindex="-1" autocomplete="off" hidden />
+            <label>نام و نام خانوادگی<input name="name" required maxlength="80" /></label>
+            <label>شماره تماس<input name="phone" required inputmode="tel" maxlength="15" /></label>
+            <label>موضوع / عنوان همکاری<input name="subject" required maxlength="120" /></label>
+            <label>شرح درخواست<textarea name="description" required maxlength="2000"></textarea></label>
+            <p data-form-error></p>
+            <button class="btn" type="submit"><svg class="icon"><use href="#i-check"/></svg>ارسال</button>
+          </form>
+          <div class="confirm-card" data-collab-confirm></div>
+        </div>
+      </section>
+    </main>
+    {{include:consult-modal}}
+    {{include:footer}}
+  </body>
+</html>

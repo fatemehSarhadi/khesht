@@ -1,0 +1,1430 @@
+{
+  "site": {
+    "name": "خشت",
+    "nameLatin": "Khesht",
+    "slogan": "آنچه با خشت اصالت و اندیشه بنا میشود، گذر قرن ها را تاب می آورد.",
+    "legalName": "[نام حقوقی شرکت]",
+    "address": "البرز، جاده قدیم کرج قزوین، سهیلیه، کیلومتر ۸، بلوار اصلی، نبش کوچه نسترن شرقی ۴",
+    "phone": "09122615643",
+    "email": "[ایمیل]",
+    "website": "https://khesht123.ir",
+    "social": {
+      "instagram": "https://www.instagram.com/Khesht.123",
+      "telegram": "https://t.me/Khesht.123",
+      "bale": "https://ble.ir/Khesht.123"
+    },
+    "map": {
+      "provider": "tbd",
+      "lat": null,
+      "lng": null,
+      "embedUrl": ""
+    },
+    "about": {
+      "title": "درباره خشت",
+      "body": "خشت در تقاطع املاک، ساخت و توسعه کار می‌کند. تصمیم‌های ملکی را به تجربه اجرایی گره می‌زند تا انتخاب ملک، سرمایه‌گذاری یا مشارکت، روی شناخت واقعی زمین، سند، ساخت و بازار باشد — نه شعار. متن نهایی این بخش پس از تأیید محتوا جایگزین می‌شود."
+    },
+    "copyright": "© All rights of this website are reserved for Khesht.",
+    "ceo": {
+      "name": "مهندس سعید نوروزی",
+      "title": "مدیر عامل مجموعه خشت",
+      "photo": "",
+      "bio": "<p>[متن معرفی مهندس نوروزی — از پنل وردپرس نوشته می‌شود.]</p>"
+    }
+  },
+  "heroes": {},
+  "team": [
+    {
+      "id": 1,
+      "slug": "team-1",
+      "name": "[نام و نام خانوادگی]",
+      "role": "[سمت]",
+      "bio": "شرح کوتاه تخصص و سابقه. محتوا از وردپرس مدیریت می‌شود.",
+      "photo": ""
+    },
+    {
+      "id": 2,
+      "slug": "team-2",
+      "name": "[نام و نام خانوادگی]",
+      "role": "[سمت]",
+      "bio": "شرح کوتاه تخصص و سابقه. محتوا از وردپرس مدیریت می‌شود.",
+      "photo": ""
+    },
+    {
+      "id": 3,
+      "slug": "team-3",
+      "name": "[نام و نام خانوادگی]",
+      "role": "[سمت]",
+      "bio": "شرح کوتاه تخصص و سابقه. محتوا از وردپرس مدیریت می‌شود.",
+      "photo": ""
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "slug": "buy-sell",
+      "title": "خرید و فروش",
+      "description": "همراهی کامل از انتخاب و بررسی سند تا مذاکره و انتقال؛ برای سکونت یا سرمایه‌گذاری.",
+      "icon": "scale"
+    },
+    {
+      "id": 2,
+      "slug": "rahn-rent",
+      "title": "رهن و اجاره",
+      "description": "تنظیم رهن کامل یا رهن و اجاره با شفافیت شرایط و تعهدات هر دو طرف.",
+      "icon": "key"
+    },
+    {
+      "id": 3,
+      "slug": "appraisal",
+      "title": "کارشناسی و قیمت‌گذاری",
+      "description": "برآورد کارشناسی بر پایه‌ی موقعیت، سند، ساخت و داده‌های واقعی بازار.",
+      "icon": "ruler"
+    },
+    {
+      "id": 4,
+      "slug": "consulting",
+      "title": "مشاوره",
+      "description": "مشاوره‌ی تصمیم‌گیری برای خرید، فروش، مشارکت و سرمایه‌گذاری.",
+      "icon": "chat"
+    },
+    {
+      "id": 5,
+      "slug": "construction",
+      "title": "ساخت و ساز و شهرک‌سازی",
+      "description": "از طراحی تا اجرا؛ خشت روی خشت، همان چیزی را می‌سازیم که شما می‌خواهید.",
+      "icon": "hammer"
+    },
+    {
+      "id": 6,
+      "slug": "partnership",
+      "title": "مشارکت",
+      "description": "مشارکت در ساخت و پروژه‌های مشترک؛ سرمایه‌ی شما و تجربه‌ی اجرایی ما در کنار هم.",
+      "icon": "handshake"
+    }
+  ],
+  "taxonomies": {
+    "property_type": [
+      {
+        "slug": "residential",
+        "name": "مسکونی",
+        "parent": null
+      },
+      {
+        "slug": "land",
+        "name": "زمین",
+        "parent": null
+      },
+      {
+        "slug": "garden",
+        "name": "باغ و باغچه",
+        "parent": null
+      },
+      {
+        "slug": "commercial",
+        "name": "تجاری و اداری",
+        "parent": null
+      },
+      {
+        "slug": "industrial",
+        "name": "صنعتی",
+        "parent": null
+      },
+      {
+        "slug": "agri",
+        "name": "کشاورزی و دامپروری",
+        "parent": null
+      },
+      {
+        "slug": "economic",
+        "name": "فایل‌های اقتصادی",
+        "parent": null
+      }
+    ],
+    "transaction_type": [
+      {
+        "slug": "buy",
+        "name": "خرید"
+      },
+      {
+        "slug": "rahn",
+        "name": "رهن"
+      },
+      {
+        "slug": "rahn-rent",
+        "name": "رهن،اجاره"
+      },
+      {
+        "slug": "presale",
+        "name": "پیش خرید"
+      },
+      {
+        "slug": "partnership",
+        "name": "مشارکت در ساخت"
+      }
+    ],
+    "location": [
+      {
+        "slug": "karaj",
+        "name": "کرج",
+        "parent": null,
+        "kind": "city"
+      },
+      {
+        "slug": "region-1",
+        "name": "منطقه نمونه",
+        "parent": "karaj",
+        "kind": "region"
+      },
+      {
+        "slug": "mehrshahr",
+        "name": "مهرشهر",
+        "parent": "region-1",
+        "kind": "neighborhood"
+      }
+    ]
+  },
+  "properties": [
+    {
+      "id": 101,
+      "slug": "villa-mehrshahr",
+      "title": "ویلای نمونه — مهرشهر",
+      "image": "",
+      "gallery": [
+        "/media/prop-1.jpg",
+        "/media/prop-2.jpg",
+        "/media/prop-3.jpg",
+        "/media/prop-4.jpg"
+      ],
+      "location": {
+        "city": "کرج",
+        "region": "منطقه نمونه",
+        "neighborhood": "مهرشهر",
+        "label": "کرج، مهرشهر"
+      },
+      "city": "karaj",
+      "region": "region-1",
+      "neighborhood": "mehrshahr",
+      "area_m2": 420,
+      "price_amount": 18500000000,
+      "price_is_approximate": true,
+      "currency": "toman",
+      "property_type": [
+        "garden"
+      ],
+      "transaction_type": [
+        "buy"
+      ],
+      "featured": true,
+      "excerpt": "نمونه فایل برای توسعه رابط و فیلتر. مشخصات نهایی از وردپرس می‌آید.",
+      "body": "<p>این متن نمونه‌ی توضیحات ملک است. توضیحات کامل، موقعیت، شرایط معامله و جزئیات از پنل وردپرس نوشته می‌شود.</p><p>می‌توانید چند پاراگراف بنویسید.</p>",
+      "code": "KH-1001",
+      "video_url": "https://www.aparat.com/",
+      "negotiable": true,
+      "contact_phone": "09122222222",
+      "lat": "35.8330",
+      "lng": "50.9300",
+      "features": [
+        "پارکینگ اختصاصی",
+        "انباری",
+        "حیاط مشجر",
+        "سیستم گرمایش از کف"
+      ],
+      "specs": {
+        "bedrooms": "۳",
+        "build_area": "۲۸۰",
+        "year_built": "۱۴۰۲",
+        "deed": "سند تک‌برگ",
+        "floor": "",
+        "parking": true,
+        "storage": true,
+        "elevator": false,
+        "build_style": "مدرن",
+        "landscaping": "دارد — فضای سبز و آلاچیق"
+      },
+      "property_type_labels": [
+        "باغ و باغچه"
+      ],
+      "transaction_labels": [
+        "خرید"
+      ]
+    },
+    {
+      "id": 102,
+      "slug": "apartment-karaj",
+      "title": "آپارتمان مسکونی — کرج",
+      "image": "",
+      "gallery": [
+        "/media/prop-2.jpg",
+        "/media/prop-3.jpg",
+        "/media/prop-4.jpg",
+        "/media/prop-5.jpg"
+      ],
+      "location": {
+        "city": "کرج",
+        "region": "منطقه نمونه",
+        "neighborhood": "مهرشهر",
+        "label": "کرج، مهرشهر"
+      },
+      "city": "karaj",
+      "region": "region-1",
+      "neighborhood": "mehrshahr",
+      "area_m2": 145,
+      "price_amount": 6200000000,
+      "price_is_approximate": true,
+      "currency": "toman",
+      "property_type": [
+        "residential"
+      ],
+      "transaction_type": [
+        "buy",
+        "rahn"
+      ],
+      "featured": false,
+      "excerpt": "نمونه واحد مسکونی برای کارت لیست و صفحه جزئیات.",
+      "body": "<p>این متن نمونه‌ی توضیحات ملک است. توضیحات کامل، موقعیت، شرایط معامله و جزئیات از پنل وردپرس نوشته می‌شود.</p><p>می‌توانید چند پاراگراف بنویسید.</p>",
+      "code": "KH-1002",
+      "video_url": "",
+      "negotiable": false,
+      "contact_phone": "",
+      "lat": "",
+      "lng": "",
+      "features": [
+        "نورگیر عالی",
+        "دسترسی آسان"
+      ],
+      "specs": {
+        "bedrooms": "۳",
+        "build_area": "۲۸۰",
+        "year_built": "۱۴۰۲",
+        "deed": "سند تک‌برگ",
+        "floor": "",
+        "parking": true,
+        "storage": true,
+        "elevator": false,
+        "build_style": "مدرن",
+        "landscaping": "دارد — فضای سبز و آلاچیق"
+      },
+      "property_type_labels": [
+        "مسکونی"
+      ],
+      "transaction_labels": [
+        "خرید",
+        "رهن"
+      ]
+    },
+    {
+      "id": 103,
+      "slug": "office-file",
+      "title": "واحد اداری — نمونه",
+      "image": "",
+      "gallery": [
+        "/media/prop-3.jpg",
+        "/media/prop-4.jpg",
+        "/media/prop-5.jpg",
+        "/media/prop-6.jpg"
+      ],
+      "location": {
+        "city": "کرج",
+        "region": "منطقه نمونه",
+        "neighborhood": "مهرشهر",
+        "label": "کرج، مهرشهر"
+      },
+      "city": "karaj",
+      "region": "region-1",
+      "neighborhood": "mehrshahr",
+      "area_m2": 88,
+      "price_amount": 4100000000,
+      "price_is_approximate": true,
+      "currency": "toman",
+      "property_type": [
+        "commercial"
+      ],
+      "transaction_type": [
+        "rahn-rent"
+      ],
+      "featured": false,
+      "excerpt": "نمونه کاربری اداری.",
+      "body": "<p>این متن نمونه‌ی توضیحات ملک است. توضیحات کامل، موقعیت، شرایط معامله و جزئیات از پنل وردپرس نوشته می‌شود.</p><p>می‌توانید چند پاراگراف بنویسید.</p>",
+      "code": "KH-1003",
+      "video_url": "",
+      "negotiable": true,
+      "contact_phone": "09121111111",
+      "lat": "",
+      "lng": "",
+      "features": [
+        "نورگیر عالی",
+        "دسترسی آسان"
+      ],
+      "specs": {
+        "bedrooms": "۳",
+        "build_area": "۲۸۰",
+        "year_built": "۱۴۰۲",
+        "deed": "سند تک‌برگ",
+        "floor": "",
+        "parking": true,
+        "storage": true,
+        "elevator": false,
+        "build_style": "مدرن",
+        "landscaping": "دارد — فضای سبز و آلاچیق"
+      },
+      "property_type_labels": [
+        "تجاری و اداری"
+      ],
+      "transaction_labels": [
+        "رهن،اجاره"
+      ]
+    },
+    {
+      "id": 104,
+      "slug": "land-soheyleh",
+      "title": "زمین — سهیلیه",
+      "image": "",
+      "gallery": [
+        "/media/prop-4.jpg",
+        "/media/prop-5.jpg",
+        "/media/prop-6.jpg",
+        "/media/prop-1.jpg"
+      ],
+      "location": {
+        "city": "کرج",
+        "region": "منطقه نمونه",
+        "neighborhood": "مهرشهر",
+        "label": "کرج، مهرشهر"
+      },
+      "city": "karaj",
+      "region": "region-1",
+      "neighborhood": "mehrshahr",
+      "area_m2": 600,
+      "price_amount": 9800000000,
+      "price_is_approximate": true,
+      "currency": "toman",
+      "property_type": [
+        "land"
+      ],
+      "transaction_type": [
+        "buy",
+        "presale"
+      ],
+      "featured": false,
+      "excerpt": "نمونه فایل برای توسعه رابط و فیلتر. مشخصات نهایی از وردپرس می‌آید.",
+      "body": "<p>این متن نمونه‌ی توضیحات ملک است. توضیحات کامل، موقعیت، شرایط معامله و جزئیات از پنل وردپرس نوشته می‌شود.</p><p>می‌توانید چند پاراگراف بنویسید.</p>",
+      "code": "KH-1004",
+      "video_url": "",
+      "negotiable": false,
+      "contact_phone": "",
+      "lat": "",
+      "lng": "",
+      "features": [
+        "نورگیر عالی",
+        "دسترسی آسان"
+      ],
+      "specs": {
+        "bedrooms": "۳",
+        "build_area": "۲۸۰",
+        "year_built": "۱۴۰۲",
+        "deed": "سند تک‌برگ",
+        "floor": "",
+        "parking": true,
+        "storage": true,
+        "elevator": false,
+        "build_style": "مدرن",
+        "landscaping": "دارد — فضای سبز و آلاچیق"
+      },
+      "property_type_labels": [
+        "زمین"
+      ],
+      "transaction_labels": [
+        "خرید",
+        "پیش خرید"
+      ]
+    },
+    {
+      "id": 105,
+      "slug": "industrial-karaj",
+      "title": "سوله صنعتی — نمونه",
+      "image": "",
+      "gallery": [
+        "/media/prop-5.jpg",
+        "/media/prop-6.jpg",
+        "/media/prop-1.jpg",
+        "/media/prop-2.jpg"
+      ],
+      "location": {
+        "city": "کرج",
+        "region": "منطقه نمونه",
+        "neighborhood": "مهرشهر",
+        "label": "کرج، مهرشهر"
+      },
+      "city": "karaj",
+      "region": "region-1",
+      "neighborhood": "mehrshahr",
+      "area_m2": 1200,
+      "price_amount": 24000000000,
+      "price_is_approximate": true,
+      "currency": "toman",
+      "property_type": [
+        "industrial"
+      ],
+      "transaction_type": [
+        "buy",
+        "rahn-rent"
+      ],
+      "featured": false,
+      "excerpt": "نمونه فایل برای توسعه رابط و فیلتر. مشخصات نهایی از وردپرس می‌آید.",
+      "body": "<p>این متن نمونه‌ی توضیحات ملک است. توضیحات کامل، موقعیت، شرایط معامله و جزئیات از پنل وردپرس نوشته می‌شود.</p><p>می‌توانید چند پاراگراف بنویسید.</p>",
+      "code": "KH-1005",
+      "video_url": "",
+      "negotiable": true,
+      "contact_phone": "",
+      "lat": "",
+      "lng": "",
+      "features": [
+        "نورگیر عالی",
+        "دسترسی آسان"
+      ],
+      "specs": {
+        "bedrooms": "۳",
+        "build_area": "۲۸۰",
+        "year_built": "۱۴۰۲",
+        "deed": "سند تک‌برگ",
+        "floor": "",
+        "parking": true,
+        "storage": true,
+        "elevator": false,
+        "build_style": "مدرن",
+        "landscaping": "دارد — فضای سبز و آلاچیق"
+      },
+      "property_type_labels": [
+        "صنعتی"
+      ],
+      "transaction_labels": [
+        "خرید",
+        "رهن،اجاره"
+      ]
+    },
+    {
+      "id": 106,
+      "slug": "agri-karaj",
+      "title": "زمین کشاورزی و دامداری — نمونه",
+      "image": "",
+      "gallery": [
+        "/media/prop-6.jpg",
+        "/media/prop-1.jpg",
+        "/media/prop-2.jpg",
+        "/media/prop-3.jpg"
+      ],
+      "location": {
+        "city": "کرج",
+        "region": "منطقه نمونه",
+        "neighborhood": "مهرشهر",
+        "label": "کرج، مهرشهر"
+      },
+      "city": "karaj",
+      "region": "region-1",
+      "neighborhood": "mehrshahr",
+      "area_m2": 5000,
+      "price_amount": 12500000000,
+      "price_is_approximate": true,
+      "currency": "toman",
+      "property_type": [
+        "agri"
+      ],
+      "transaction_type": [
+        "buy"
+      ],
+      "featured": true,
+      "excerpt": "نمونه فایل برای توسعه رابط و فیلتر. مشخصات نهایی از وردپرس می‌آید.",
+      "body": "<p>این متن نمونه‌ی توضیحات ملک است. توضیحات کامل، موقعیت، شرایط معامله و جزئیات از پنل وردپرس نوشته می‌شود.</p><p>می‌توانید چند پاراگراف بنویسید.</p>",
+      "code": "KH-1006",
+      "video_url": "",
+      "negotiable": false,
+      "contact_phone": "",
+      "lat": "",
+      "lng": "",
+      "features": [
+        "نورگیر عالی",
+        "دسترسی آسان"
+      ],
+      "specs": {
+        "bedrooms": "۳",
+        "build_area": "۲۸۰",
+        "year_built": "۱۴۰۲",
+        "deed": "سند تک‌برگ",
+        "floor": "",
+        "parking": true,
+        "storage": true,
+        "elevator": false,
+        "build_style": "مدرن",
+        "landscaping": "دارد — فضای سبز و آلاچیق"
+      },
+      "property_type_labels": [
+        "کشاورزی و دامپروری"
+      ],
+      "transaction_labels": [
+        "خرید"
+      ]
+    },
+    {
+      "id": 107,
+      "slug": "economic-1",
+      "title": "فایل اقتصادی نمونه — زمین سرمایه‌گذاری",
+      "image": "",
+      "gallery": [
+        "/media/prop-1.jpg",
+        "/media/prop-2.jpg",
+        "/media/prop-3.jpg",
+        "/media/prop-4.jpg"
+      ],
+      "location": {
+        "city": "کرج",
+        "region": "منطقه نمونه",
+        "neighborhood": "مهرشهر",
+        "label": "کرج، مهرشهر"
+      },
+      "city": "karaj",
+      "region": "region-1",
+      "neighborhood": "mehrshahr",
+      "area_m2": 2000,
+      "price_amount": 15000000000,
+      "price_is_approximate": true,
+      "currency": "toman",
+      "property_type": [
+        "economic"
+      ],
+      "transaction_type": [
+        "buy",
+        "partnership"
+      ],
+      "featured": false,
+      "excerpt": "نمونه فایل برای توسعه رابط و فیلتر. مشخصات نهایی از وردپرس می‌آید.",
+      "body": "<p>این متن نمونه‌ی توضیحات ملک است. توضیحات کامل، موقعیت، شرایط معامله و جزئیات از پنل وردپرس نوشته می‌شود.</p><p>می‌توانید چند پاراگراف بنویسید.</p>",
+      "code": "KH-2001",
+      "video_url": "",
+      "negotiable": true,
+      "contact_phone": "09123333333",
+      "lat": "35.8330",
+      "lng": "50.9300",
+      "features": [
+        "پارکینگ اختصاصی",
+        "انباری",
+        "حیاط مشجر",
+        "سیستم گرمایش از کف"
+      ],
+      "specs": {
+        "bedrooms": "۳",
+        "build_area": "۲۸۰",
+        "year_built": "۱۴۰۲",
+        "deed": "سند تک‌برگ",
+        "floor": "",
+        "parking": true,
+        "storage": true,
+        "elevator": false,
+        "build_style": "مدرن",
+        "landscaping": "دارد — فضای سبز و آلاچیق"
+      },
+      "property_type_labels": [
+        "فایل‌های اقتصادی"
+      ],
+      "transaction_labels": [
+        "خرید",
+        "مشارکت در ساخت"
+      ]
+    },
+    {
+      "id": 108,
+      "slug": "economic-2",
+      "title": "فایل اقتصادی نمونه — پروژه مشارکتی",
+      "image": "",
+      "gallery": [
+        "/media/prop-2.jpg",
+        "/media/prop-3.jpg",
+        "/media/prop-4.jpg",
+        "/media/prop-5.jpg"
+      ],
+      "location": {
+        "city": "کرج",
+        "region": "منطقه نمونه",
+        "neighborhood": "مهرشهر",
+        "label": "کرج، مهرشهر"
+      },
+      "city": "karaj",
+      "region": "region-1",
+      "neighborhood": "mehrshahr",
+      "area_m2": 850,
+      "price_amount": 9800000000,
+      "price_is_approximate": true,
+      "currency": "toman",
+      "property_type": [
+        "economic"
+      ],
+      "transaction_type": [
+        "buy",
+        "partnership"
+      ],
+      "featured": false,
+      "excerpt": "نمونه فایل برای توسعه رابط و فیلتر. مشخصات نهایی از وردپرس می‌آید.",
+      "body": "<p>این متن نمونه‌ی توضیحات ملک است. توضیحات کامل، موقعیت، شرایط معامله و جزئیات از پنل وردپرس نوشته می‌شود.</p><p>می‌توانید چند پاراگراف بنویسید.</p>",
+      "code": "KH-2002",
+      "video_url": "",
+      "negotiable": true,
+      "contact_phone": "09123333333",
+      "lat": "35.8330",
+      "lng": "50.9300",
+      "features": [
+        "پارکینگ اختصاصی",
+        "انباری",
+        "حیاط مشجر",
+        "سیستم گرمایش از کف"
+      ],
+      "specs": {
+        "bedrooms": "۳",
+        "build_area": "۲۸۰",
+        "year_built": "۱۴۰۲",
+        "deed": "سند تک‌برگ",
+        "floor": "",
+        "parking": true,
+        "storage": true,
+        "elevator": false,
+        "build_style": "مدرن",
+        "landscaping": "دارد — فضای سبز و آلاچیق"
+      },
+      "property_type_labels": [
+        "فایل‌های اقتصادی"
+      ],
+      "transaction_labels": [
+        "خرید",
+        "مشارکت در ساخت"
+      ]
+    },
+    {
+      "id": 109,
+      "slug": "economic-3",
+      "title": "فایل اقتصادی نمونه — ساختمان تجاری",
+      "image": "",
+      "gallery": [
+        "/media/prop-3.jpg",
+        "/media/prop-4.jpg",
+        "/media/prop-5.jpg",
+        "/media/prop-6.jpg"
+      ],
+      "location": {
+        "city": "کرج",
+        "region": "منطقه نمونه",
+        "neighborhood": "مهرشهر",
+        "label": "کرج، مهرشهر"
+      },
+      "city": "karaj",
+      "region": "region-1",
+      "neighborhood": "mehrshahr",
+      "area_m2": 420,
+      "price_amount": 21000000000,
+      "price_is_approximate": true,
+      "currency": "toman",
+      "property_type": [
+        "economic"
+      ],
+      "transaction_type": [
+        "buy",
+        "partnership"
+      ],
+      "featured": false,
+      "excerpt": "نمونه فایل برای توسعه رابط و فیلتر. مشخصات نهایی از وردپرس می‌آید.",
+      "body": "<p>این متن نمونه‌ی توضیحات ملک است. توضیحات کامل، موقعیت، شرایط معامله و جزئیات از پنل وردپرس نوشته می‌شود.</p><p>می‌توانید چند پاراگراف بنویسید.</p>",
+      "code": "KH-2003",
+      "video_url": "",
+      "negotiable": true,
+      "contact_phone": "09123333333",
+      "lat": "35.8330",
+      "lng": "50.9300",
+      "features": [
+        "پارکینگ اختصاصی",
+        "انباری",
+        "حیاط مشجر",
+        "سیستم گرمایش از کف"
+      ],
+      "specs": {
+        "bedrooms": "۳",
+        "build_area": "۲۸۰",
+        "year_built": "۱۴۰۲",
+        "deed": "سند تک‌برگ",
+        "floor": "",
+        "parking": true,
+        "storage": true,
+        "elevator": false,
+        "build_style": "مدرن",
+        "landscaping": "دارد — فضای سبز و آلاچیق"
+      },
+      "property_type_labels": [
+        "فایل‌های اقتصادی"
+      ],
+      "transaction_labels": [
+        "خرید",
+        "مشارکت در ساخت"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": 201,
+      "slug": "best-area-karaj-investment",
+      "title": "بهترین منطقه برای سرمایه‌گذاری در کرج",
+      "excerpt": "چارچوبی برای ارزیابی منطقه، نه یک نسخه قطعی.",
+      "date": "2026-09-12",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "market",
+        "name": "تحلیل بازار"
+      },
+      "image": "/media/mag-2.jpg",
+      "body": "<p>این یک مقاله‌ی نمونه است. متن کامل، تصاویر و تیترها از پنل وردپرس نوشته می‌شود.</p><h2>یک زیرعنوان</h2><p>پاراگراف دوم مقاله.</p>",
+      "url": "/mag/article/?id=201",
+      "reading_minutes": 4,
+      "media_url": ""
+    },
+    {
+      "id": 202,
+      "slug": "rahn-vs-rahn-rent",
+      "title": "تفاوت رهن کامل و رهن اجاره",
+      "excerpt": "تفاوت تعهدات، نقدینگی و کاربرد هر مدل برای موجر و مستأجر.",
+      "date": "2026-08-03",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "education",
+        "name": "آموزش املاک"
+      },
+      "image": "/media/mag-1.jpg",
+      "body": "<p>این یک مقاله‌ی نمونه است. متن کامل، تصاویر و تیترها از پنل وردپرس نوشته می‌شود.</p><h2>یک زیرعنوان</h2><p>پاراگراف دوم مقاله.</p>",
+      "url": "/mag/article/?id=202",
+      "reading_minutes": 4,
+      "media_url": ""
+    },
+    {
+      "id": 203,
+      "slug": "ancient-iran-construction",
+      "title": "روایت ساخت در ایران باستان",
+      "excerpt": "خشت، اندیشه و تداوم؛ پیوند هویت برند با تاریخ معماری.",
+      "date": "2026-07-20",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "construction",
+        "name": "ساخت‌وساز"
+      },
+      "image": "/media/mag-3.jpg",
+      "body": "<p>این یک مقاله‌ی نمونه است. متن کامل، تصاویر و تیترها از پنل وردپرس نوشته می‌شود.</p><h2>یک زیرعنوان</h2><p>پاراگراف دوم مقاله.</p>",
+      "url": "/mag/article/?id=203",
+      "reading_minutes": 4,
+      "media_url": ""
+    },
+    {
+      "id": 204,
+      "slug": "khesht-podcast-ep1",
+      "title": "اولین قسمت پادکست خشت",
+      "excerpt": "گفت‌وگو درباره‌ی املاک، ساخت و معماری. به‌زودی.",
+      "date": "2026-10-01",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "media",
+        "name": "پادکست و رسانه"
+      },
+      "image": "/media/gallery-5.jpg",
+      "body": "<p>این یک مقاله‌ی نمونه است. متن کامل، تصاویر و تیترها از پنل وردپرس نوشته می‌شود.</p><h2>یک زیرعنوان</h2><p>پاراگراف دوم مقاله.</p>",
+      "url": "/mag/article/?id=204",
+      "reading_minutes": 4,
+      "media_url": ""
+    },
+    {
+      "id": 205,
+      "slug": "demo-5",
+      "title": "مقاله‌ی نمونه شماره 5",
+      "excerpt": "خلاصه‌ی کوتاه مقاله برای تست صفحه‌بندی.",
+      "date": "2026-09-06",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "construction",
+        "name": "ساخت‌وساز"
+      },
+      "image": "/media/mag-3.jpg",
+      "body": "<p>متن نمونه.</p>",
+      "url": "/mag/article/?id=205",
+      "reading_minutes": 3,
+      "media_url": ""
+    },
+    {
+      "id": 206,
+      "slug": "demo-6",
+      "title": "مقاله‌ی نمونه شماره 6",
+      "excerpt": "خلاصه‌ی کوتاه مقاله برای تست صفحه‌بندی.",
+      "date": "2026-09-07",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "market",
+        "name": "تحلیل بازار"
+      },
+      "image": "/media/mag-1.jpg",
+      "body": "<p>متن نمونه.</p>",
+      "url": "/mag/article/?id=206",
+      "reading_minutes": 3,
+      "media_url": ""
+    },
+    {
+      "id": 207,
+      "slug": "demo-7",
+      "title": "مقاله‌ی نمونه شماره 7",
+      "excerpt": "خلاصه‌ی کوتاه مقاله برای تست صفحه‌بندی.",
+      "date": "2026-09-08",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "media",
+        "name": "پادکست و رسانه"
+      },
+      "image": "/media/mag-2.jpg",
+      "body": "<p>متن نمونه.</p>",
+      "url": "/mag/article/?id=207",
+      "reading_minutes": 3,
+      "media_url": ""
+    },
+    {
+      "id": 208,
+      "slug": "demo-8",
+      "title": "مقاله‌ی نمونه شماره 8",
+      "excerpt": "خلاصه‌ی کوتاه مقاله برای تست صفحه‌بندی.",
+      "date": "2026-09-09",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "education",
+        "name": "آموزش املاک"
+      },
+      "image": "/media/mag-3.jpg",
+      "body": "<p>متن نمونه.</p>",
+      "url": "/mag/article/?id=208",
+      "reading_minutes": 3,
+      "media_url": ""
+    },
+    {
+      "id": 209,
+      "slug": "demo-9",
+      "title": "مقاله‌ی نمونه شماره 9",
+      "excerpt": "خلاصه‌ی کوتاه مقاله برای تست صفحه‌بندی.",
+      "date": "2026-09-10",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "construction",
+        "name": "ساخت‌وساز"
+      },
+      "image": "/media/mag-1.jpg",
+      "body": "<p>متن نمونه.</p>",
+      "url": "/mag/article/?id=209",
+      "reading_minutes": 3,
+      "media_url": ""
+    },
+    {
+      "id": 210,
+      "slug": "demo-10",
+      "title": "مقاله‌ی نمونه شماره 10",
+      "excerpt": "خلاصه‌ی کوتاه مقاله برای تست صفحه‌بندی.",
+      "date": "2026-09-11",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "market",
+        "name": "تحلیل بازار"
+      },
+      "image": "/media/mag-2.jpg",
+      "body": "<p>متن نمونه.</p>",
+      "url": "/mag/article/?id=210",
+      "reading_minutes": 3,
+      "media_url": ""
+    },
+    {
+      "id": 211,
+      "slug": "demo-11",
+      "title": "مقاله‌ی نمونه شماره 11",
+      "excerpt": "خلاصه‌ی کوتاه مقاله برای تست صفحه‌بندی.",
+      "date": "2026-09-12",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "media",
+        "name": "پادکست و رسانه"
+      },
+      "image": "/media/mag-3.jpg",
+      "body": "<p>متن نمونه.</p>",
+      "url": "/mag/article/?id=211",
+      "reading_minutes": 3,
+      "media_url": ""
+    },
+    {
+      "id": 212,
+      "slug": "demo-12",
+      "title": "مقاله‌ی نمونه شماره 12",
+      "excerpt": "خلاصه‌ی کوتاه مقاله برای تست صفحه‌بندی.",
+      "date": "2026-09-13",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "education",
+        "name": "آموزش املاک"
+      },
+      "image": "/media/mag-1.jpg",
+      "body": "<p>متن نمونه.</p>",
+      "url": "/mag/article/?id=212",
+      "reading_minutes": 3,
+      "media_url": ""
+    },
+    {
+      "id": 213,
+      "slug": "demo-13",
+      "title": "مقاله‌ی نمونه شماره 13",
+      "excerpt": "خلاصه‌ی کوتاه مقاله برای تست صفحه‌بندی.",
+      "date": "2026-09-14",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "construction",
+        "name": "ساخت‌وساز"
+      },
+      "image": "/media/mag-2.jpg",
+      "body": "<p>متن نمونه.</p>",
+      "url": "/mag/article/?id=213",
+      "reading_minutes": 3,
+      "media_url": ""
+    },
+    {
+      "id": 214,
+      "slug": "demo-14",
+      "title": "مقاله‌ی نمونه شماره 14",
+      "excerpt": "خلاصه‌ی کوتاه مقاله برای تست صفحه‌بندی.",
+      "date": "2026-09-15",
+      "author": "تحریریه خشت",
+      "category": {
+        "slug": "market",
+        "name": "تحلیل بازار"
+      },
+      "image": "/media/mag-3.jpg",
+      "body": "<p>متن نمونه.</p>",
+      "url": "/mag/article/?id=214",
+      "reading_minutes": 3,
+      "media_url": ""
+    },
+    {
+      "id": 401,
+      "slug": "ceo-1",
+      "title": "نگاهی به آینده‌ی ساخت‌وساز",
+      "excerpt": "یادداشتی از مهندس نوروزی. متن نمونه برای نمایش.",
+      "date": "2026-10-10",
+      "author": "مهندس سعید نوروزی",
+      "category": {
+        "slug": "ceo",
+        "name": "وبلاگ مهندس نوروزی"
+      },
+      "image": "/media/mag-1.jpg",
+      "body": "<p>متن نمونه‌ی یادداشت.</p>",
+      "url": "/mag/article/?id=401",
+      "reading_minutes": 3,
+      "media_url": ""
+    },
+    {
+      "id": 402,
+      "slug": "ceo-2",
+      "title": "چرا اصالت در معماری مهم است؟",
+      "excerpt": "یادداشتی از مهندس نوروزی. متن نمونه برای نمایش.",
+      "date": "2026-10-11",
+      "author": "مهندس سعید نوروزی",
+      "category": {
+        "slug": "ceo",
+        "name": "وبلاگ مهندس نوروزی"
+      },
+      "image": "/media/mag-2.jpg",
+      "body": "<p>متن نمونه‌ی یادداشت.</p>",
+      "url": "/mag/article/?id=402",
+      "reading_minutes": 3,
+      "media_url": ""
+    },
+    {
+      "id": 403,
+      "slug": "ceo-3",
+      "title": "تجربه‌های یک مسیر",
+      "excerpt": "یادداشتی از مهندس نوروزی. متن نمونه برای نمایش.",
+      "date": "2026-10-12",
+      "author": "مهندس سعید نوروزی",
+      "category": {
+        "slug": "ceo",
+        "name": "وبلاگ مهندس نوروزی"
+      },
+      "image": "/media/mag-3.jpg",
+      "body": "<p>متن نمونه‌ی یادداشت.</p>",
+      "url": "/mag/article/?id=403",
+      "reading_minutes": 3,
+      "media_url": ""
+    }
+  ],
+  "areaPrices": [
+    {
+      "id": 1,
+      "title": "مهرشهر، کرج",
+      "location": "mehrshahr",
+      "summary": "برآورد تقریبی زمین و مسکونی. ارقام از پنل مدیریت به‌روز می‌شوند.",
+      "updated_at": "2026-10-01"
+    },
+    {
+      "id": 2,
+      "title": "منطقه نمونه، کرج",
+      "location": "region-1",
+      "summary": "بازه تقریبی قیمت زمین و باغ. منبع: ثبت دستی در وردپرس.",
+      "updated_at": "2026-10-01"
+    }
+  ],
+  "marketInsights": [
+    {
+      "id": 301,
+      "slug": "karaj-market-note",
+      "title": "وضعیت بازار املاک کرج — یادداشت نمونه",
+      "excerpt": "تحلیل کوتاه شرایط معامله و نقدینگی. از دسته تحلیل بازار.",
+      "date": "2026-10-02"
+    }
+  ],
+  "partners": [
+    {
+      "id": 1,
+      "name": "[برند همکار]",
+      "description": "معرفی همکاری. فایل‌های شریک بعداً به همین موجودیت وصل می‌شوند.",
+      "logo": ""
+    }
+  ],
+  "marketQuotes": {
+    "updated_at": "2026-10-12T00:00:00+03:30",
+    "source": "mock",
+    "items": [
+      {
+        "id": "gold",
+        "label": "طلای ۱۸ عیار (هر گرم)",
+        "value": null,
+        "unit": "تومان",
+        "change": 0
+      },
+      {
+        "id": "coin",
+        "label": "سکه امامی",
+        "value": null,
+        "unit": "تومان",
+        "change": 0
+      },
+      {
+        "id": "usd",
+        "label": "دلار",
+        "value": null,
+        "unit": "تومان",
+        "change": 0
+      },
+      {
+        "id": "eur",
+        "label": "یورو",
+        "value": null,
+        "unit": "تومان",
+        "change": 0
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": 301,
+      "slug": "villa-karaj",
+      "title": "ویلای نمونه — کرج",
+      "excerpt": "[توضیح کوتاه پروژه]",
+      "image": "/media/sakht-1.jpg",
+      "group": "sakht",
+      "status": "done",
+      "location": "کرج",
+      "area": "۳۲۰ متر بنا",
+      "year": "۱۴۰۴",
+      "gallery": [
+        "/media/gallery-1.jpg",
+        "/media/gallery-2.jpg",
+        "/media/gallery-3.jpg",
+        "/media/gallery-4.jpg"
+      ],
+      "url": "/project/?id=301",
+      "body": "<p>توضیح کامل پروژه: هدف، روش اجرا، مصالح و نتیجه. از پنل وردپرس نوشته می‌شود.</p>",
+      "duration": "۱۲ ماه",
+      "units": "۱۰ واحد",
+      "client": "[کارفرما]",
+      "features": [
+        "اسکلت بتنی",
+        "نمای سنگ",
+        "سیستم گرمایش مرکزی"
+      ],
+      "video_url": ""
+    },
+    {
+      "id": 302,
+      "slug": "office-tower",
+      "title": "مجموعه اداری نمونه",
+      "excerpt": "[توضیح کوتاه پروژه]",
+      "image": "/media/sakht-2.jpg",
+      "group": "sakht",
+      "status": "done",
+      "location": "سهیلیه",
+      "area": "۱٬۲۰۰ متر بنا",
+      "year": "۱۴۰۳",
+      "gallery": [
+        "/media/gallery-1.jpg",
+        "/media/gallery-2.jpg",
+        "/media/gallery-3.jpg",
+        "/media/gallery-4.jpg"
+      ],
+      "url": "/project/?id=302",
+      "body": "<p>توضیح کامل پروژه: هدف، روش اجرا، مصالح و نتیجه. از پنل وردپرس نوشته می‌شود.</p>",
+      "duration": "۱۲ ماه",
+      "units": "۱۰ واحد",
+      "client": "[کارفرما]",
+      "features": [
+        "اسکلت بتنی",
+        "نمای سنگ",
+        "سیستم گرمایش مرکزی"
+      ],
+      "video_url": ""
+    },
+    {
+      "id": 303,
+      "slug": "renovation-1",
+      "title": "بازسازی ساختمان نمونه",
+      "excerpt": "[توضیح کوتاه پروژه]",
+      "image": "/media/sakht-3.jpg",
+      "group": "sakht",
+      "status": "done",
+      "location": "کرج",
+      "area": "۲۴۰ متر بنا",
+      "year": "۱۴۰۴",
+      "gallery": [
+        "/media/gallery-1.jpg",
+        "/media/gallery-2.jpg",
+        "/media/gallery-3.jpg",
+        "/media/gallery-4.jpg"
+      ],
+      "url": "/project/?id=303",
+      "body": "<p>توضیح کامل پروژه: هدف، روش اجرا، مصالح و نتیجه. از پنل وردپرس نوشته می‌شود.</p>",
+      "duration": "۱۲ ماه",
+      "units": "۱۰ واحد",
+      "client": "[کارفرما]",
+      "features": [
+        "اسکلت بتنی",
+        "نمای سنگ",
+        "سیستم گرمایش مرکزی"
+      ],
+      "video_url": ""
+    },
+    {
+      "id": 304,
+      "slug": "garden-villa",
+      "title": "باغ‌ویلا نمونه",
+      "excerpt": "[توضیح کوتاه پروژه]",
+      "image": "/media/gallery-1.jpg",
+      "group": "sakht",
+      "status": "ongoing",
+      "location": "البرز",
+      "area": "۴۸۰ متر بنا",
+      "year": "۱۴۰۵",
+      "gallery": [
+        "/media/gallery-1.jpg",
+        "/media/gallery-2.jpg",
+        "/media/gallery-3.jpg",
+        "/media/gallery-4.jpg"
+      ],
+      "url": "/project/?id=304",
+      "body": "<p>توضیح کامل پروژه: هدف، روش اجرا، مصالح و نتیجه. از پنل وردپرس نوشته می‌شود.</p>",
+      "duration": "۱۲ ماه",
+      "units": "۱۰ واحد",
+      "client": "[کارفرما]",
+      "features": [
+        "اسکلت بتنی",
+        "نمای سنگ",
+        "سیستم گرمایش مرکزی"
+      ],
+      "video_url": ""
+    },
+    {
+      "id": 305,
+      "slug": "commercial-1",
+      "title": "مجتمع تجاری نمونه",
+      "excerpt": "[توضیح کوتاه پروژه]",
+      "image": "/media/gallery-2.jpg",
+      "group": "sakht",
+      "status": "done",
+      "location": "کرج",
+      "area": "۲٬۰۰۰ متر بنا",
+      "year": "۱۴۰۲",
+      "gallery": [
+        "/media/gallery-1.jpg",
+        "/media/gallery-2.jpg",
+        "/media/gallery-3.jpg",
+        "/media/gallery-4.jpg"
+      ],
+      "url": "/project/?id=305",
+      "body": "<p>توضیح کامل پروژه: هدف، روش اجرا، مصالح و نتیجه. از پنل وردپرس نوشته می‌شود.</p>",
+      "duration": "۱۲ ماه",
+      "units": "۱۰ واحد",
+      "client": "[کارفرما]",
+      "features": [
+        "اسکلت بتنی",
+        "نمای سنگ",
+        "سیستم گرمایش مرکزی"
+      ],
+      "video_url": ""
+    },
+    {
+      "id": 306,
+      "slug": "industrial-1",
+      "title": "سوله صنعتی نمونه",
+      "excerpt": "[توضیح کوتاه پروژه]",
+      "image": "/media/gallery-3.jpg",
+      "group": "sakht",
+      "status": "done",
+      "location": "قزوین",
+      "area": "۱٬۵۰۰ متر بنا",
+      "year": "۱۴۰۳",
+      "gallery": [
+        "/media/gallery-1.jpg",
+        "/media/gallery-2.jpg",
+        "/media/gallery-3.jpg",
+        "/media/gallery-4.jpg"
+      ],
+      "url": "/project/?id=306",
+      "body": "<p>توضیح کامل پروژه: هدف، روش اجرا، مصالح و نتیجه. از پنل وردپرس نوشته می‌شود.</p>",
+      "duration": "۱۲ ماه",
+      "units": "۱۰ واحد",
+      "client": "[کارفرما]",
+      "features": [
+        "اسکلت بتنی",
+        "نمای سنگ",
+        "سیستم گرمایش مرکزی"
+      ],
+      "video_url": ""
+    },
+    {
+      "id": 307,
+      "slug": "township-1",
+      "title": "شهرک نمونه ۱",
+      "excerpt": "[توضیح کوتاه پروژه]",
+      "image": "/media/shahrak-1.jpg",
+      "group": "shahrak",
+      "status": "ongoing",
+      "location": "البرز",
+      "area": "۳۰ واحد",
+      "year": "۱۴۰۵",
+      "gallery": [
+        "/media/gallery-1.jpg",
+        "/media/gallery-2.jpg",
+        "/media/gallery-3.jpg",
+        "/media/gallery-4.jpg"
+      ],
+      "url": "/project/?id=307",
+      "body": "<p>توضیح کامل پروژه: هدف، روش اجرا، مصالح و نتیجه. از پنل وردپرس نوشته می‌شود.</p>",
+      "duration": "۱۲ ماه",
+      "units": "۱۰ واحد",
+      "client": "[کارفرما]",
+      "features": [
+        "اسکلت بتنی",
+        "نمای سنگ",
+        "سیستم گرمایش مرکزی"
+      ],
+      "video_url": ""
+    },
+    {
+      "id": 308,
+      "slug": "township-2",
+      "title": "شهرک نمونه ۲",
+      "excerpt": "[توضیح کوتاه پروژه]",
+      "image": "/media/shahrak-2.jpg",
+      "group": "shahrak",
+      "status": "done",
+      "location": "کرج",
+      "area": "۱۸ واحد",
+      "year": "۱۴۰۳",
+      "gallery": [
+        "/media/gallery-1.jpg",
+        "/media/gallery-2.jpg",
+        "/media/gallery-3.jpg",
+        "/media/gallery-4.jpg"
+      ],
+      "url": "/project/?id=308",
+      "body": "<p>توضیح کامل پروژه: هدف، روش اجرا، مصالح و نتیجه. از پنل وردپرس نوشته می‌شود.</p>",
+      "duration": "۱۲ ماه",
+      "units": "۱۰ واحد",
+      "client": "[کارفرما]",
+      "features": [
+        "اسکلت بتنی",
+        "نمای سنگ",
+        "سیستم گرمایش مرکزی"
+      ],
+      "video_url": ""
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "url": "/media/gallery-1.jpg",
+      "thumb": "/media/gallery-1.jpg",
+      "caption": "تصویر 1"
+    },
+    {
+      "id": 2,
+      "url": "/media/gallery-2.jpg",
+      "thumb": "/media/gallery-2.jpg",
+      "caption": "تصویر 2"
+    },
+    {
+      "id": 3,
+      "url": "/media/gallery-3.jpg",
+      "thumb": "/media/gallery-3.jpg",
+      "caption": "تصویر 3"
+    },
+    {
+      "id": 4,
+      "url": "/media/gallery-4.jpg",
+      "thumb": "/media/gallery-4.jpg",
+      "caption": "تصویر 4"
+    },
+    {
+      "id": 5,
+      "url": "/media/gallery-5.jpg",
+      "thumb": "/media/gallery-5.jpg",
+      "caption": "تصویر 5"
+    },
+    {
+      "id": 6,
+      "url": "/media/gallery-6.jpg",
+      "thumb": "/media/gallery-6.jpg",
+      "caption": "تصویر 6"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "علی م.",
+      "rating": 5,
+      "body": "از شفافیت و پیگیری مجموعه خشت بسیار راضی بودم؛ از بازدید تا انتقال سند همراهم بودند.",
+      "reply": "ممنون از اعتماد شما.",
+      "date": "2026-09-02"
+    },
+    {
+      "id": 2,
+      "name": "مریم ک.",
+      "rating": 5,
+      "body": "مشاوره‌ی دقیق و صادقانه‌ای گرفتم و ملک مناسب را با قیمت منصفانه پیدا کردیم.",
+      "reply": "",
+      "date": "2026-08-14"
+    },
+    {
+      "id": 3,
+      "name": "رضا ح.",
+      "rating": 4,
+      "body": "کار حرفه‌ای بود و توضیحات کامل. فقط زمان هماهنگی بازدید کمی طولانی شد.",
+      "reply": "",
+      "date": "2026-07-21"
+    },
+    {
+      "id": 4,
+      "name": "سارا ن.",
+      "rating": 5,
+      "body": "ساخت باغچه با نظارت خشت بدون دغدغه انجام شد و نتیجه فراتر از انتظار بود.",
+      "reply": "",
+      "date": "2026-06-30"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    {{include:head}}
+    <title>مجله و تحلیل بازار | خشت ۱۲۳</title>
+    <meta name="description" content="مجله خشت: آموزش املاک، ساخت‌وساز، تحلیل بازار و پادکست؛ برای تصمیم دقیق‌تر در ملک و ساخت." />
+    <link rel="canonical" href="/mag/" />
+    <meta property="og:title" content="مجله و تحلیل بازار | خشت ۱۲۳" />
+    <meta property="og:description" content="مجله خشت: آموزش املاک، ساخت‌وساز، تحلیل بازار و پادکست؛ برای تصمیم دقیق‌تر در ملک و ساخت." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fa_IR" />
+    
+  </head>
+  <body data-page="mag">
+    {{include:icons}}
+    {{include:header}}
+    <main id="main">
+      <section class="hero" data-page="mag">
+        <!-- جای عکس: public/media/hero-mag.jpg -->
+        <img class="hero__image" src="/media/hero-mag.jpg" alt="مجله خشت روی میز" />
+        <div class="hero__content">
+          
+          <h1>نبض بازار را بشناسید</h1>
+          <p>تصمیم آگاهانه‌تر با تحلیل بازار</p>
+        </div>
+      </section>
+
+      <section class="prices-strip">
+        <div class="wrap">
+          <div class="prices-strip__head" data-reveal>
+            <h2>قیمت لحظه‌ای ارز و طلا</h2>
+            <p class="quotes-meta" data-quotes-meta></p>
+          </div>
+          <div class="quotes" data-market-quotes data-order="usd,eur,gold,coin">
+            <article class="quote"><svg class="icon"><use href="#i-dollar"/></svg><span>دلار</span><strong>—</strong><small>تومان</small></article>
+            <article class="quote"><svg class="icon"><use href="#i-euro"/></svg><span>یورو</span><strong>—</strong><small>تومان</small></article>
+            <article class="quote"><svg class="icon"><use href="#i-gold"/></svg><span>طلای ۱۸ عیار</span><strong>—</strong><small>تومان</small></article>
+            <article class="quote"><svg class="icon"><use href="#i-coin"/></svg><span>سکه</span><strong>—</strong><small>تومان</small></article>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrap">
+          <div class="chips" data-reveal>
+            <button class="chip" type="button" data-cat-chip="all" aria-pressed="false">همه</button>            <button class="chip" type="button" data-cat-chip="education" aria-pressed="false">آموزش املاک</button>            <button class="chip" type="button" data-cat-chip="construction" aria-pressed="false">ساخت‌وساز</button>            <button class="chip" type="button" data-cat-chip="market" aria-pressed="false">تحلیل بازار</button>            <button class="chip" type="button" data-cat-chip="media" aria-pressed="false">پادکست و رسانه</button>
+          </div>
+          <div class="grid grid--3" data-mag-list>
+            <a class="card tilt" data-reveal data-cat="education" href="/mag/">
+              <div class="card__media"><img src="/media/mag-1.jpg" alt="تفاوت رهن کامل و رهن اجاره" loading="lazy" /></div>
+              <div class="card__body"><p class="article-meta">آموزش · ۱۴۰۵/۰۵/۱۲</p><h3>تفاوت رهن کامل و رهن اجاره</h3><p>تفاوت تعهدات، نقدینگی و کاربرد هر مدل برای موجر و مستأجر.</p><span class="card__more">بیشتر بخوانید <svg class="icon"><use href="#i-arrow-left"/></svg></span></div>
+            </a>
+            <a class="card tilt" data-reveal data-cat="market" href="/mag/">
+              <div class="card__media"><img src="/media/mag-2.jpg" alt="بهترین منطقه برای سرمایه‌گذاری در کرج" loading="lazy" /></div>
+              <div class="card__body"><p class="article-meta">تحلیل بازار · ۱۴۰۵/۰۶/۲۱</p><h3>بهترین منطقه برای سرمایه‌گذاری در کرج</h3><p>چارچوبی برای ارزیابی منطقه، نه یک نسخه قطعی.</p><span class="card__more">بیشتر بخوانید <svg class="icon"><use href="#i-arrow-left"/></svg></span></div>
+            </a>
+            <a class="card tilt" data-reveal data-cat="construction" href="/mag/">
+              <div class="card__media"><img src="/media/mag-3.jpg" alt="روایت ساخت در ایران باستان" loading="lazy" /></div>
+              <div class="card__body"><p class="article-meta">ساخت‌وساز · ۱۴۰۵/۰۴/۲۹</p><h3>روایت ساخت در ایران باستان</h3><p>خشت، اندیشه و تداوم؛ پیوند هویت برند با تاریخ معماری.</p><span class="card__more">بیشتر بخوانید <svg class="icon"><use href="#i-arrow-left"/></svg></span></div>
+            </a>
+          </div>
+          <p class="lede" data-mag-empty hidden>مطلبی در این دسته هنوز منتشر نشده است.</p>
+          <p class="quotes-meta" data-mag-count style="text-align:center"></p>
+          <p style="text-align:center;margin-top:28px"><button class="btn btn--outline" type="button" data-mag-more hidden>نمایش مطالب بیشتر</button></p>
+        </div>
+      </section>
+      <section class="cta-section">
+        <div class="wrap">
+          <div class="cta-card" data-reveal>
+            <div class="cta-card__text">
+              <p class="eyebrow">مشاوره</p>
+              <h2>مشاوره با کارشناسان خشت</h2>
+              <p>برای خرید، فروش، رهن، اجاره، ساخت‌وساز یا مشارکت به نظر کارشناسی نیاز دارید؟ درخواست خود را ثبت کنید تا کارشناسان ما با شما تماس بگیرند.</p>
+              <button class="btn" type="button" data-open-consult><svg class="icon"><use href="#i-chat"/></svg>درخواست مشاوره</button>
+            </div>
+            <div class="cta-card__media"><img src="/media/consult.jpg" alt="میز مشاوره خشت" loading="lazy" /></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{include:consult-modal}}
+    {{include:footer}}
+  </body>
+</html>

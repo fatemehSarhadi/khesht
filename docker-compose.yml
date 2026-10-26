@@ -1,0 +1,38 @@
+﻿# Local WordPress for the Khesht backend.
+services:
+  db:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+
+  wordpress:
+    image: wordpress:6-php8.2-apache
+    restart: unless-stopped
+    depends_on:
+      - db
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: ${MYSQL_DATABASE}
+      WORDPRESS_DB_USER: ${MYSQL_USER}
+      WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_ENVIRONMENT_TYPE', 'local');
+      KHESHT_FRONTEND_ORIGIN: http://localhost:5173
+      KHESHT_SMS_ADAPTER: mock
+      KHESHT_MARKET_ADAPTER: mock
+    volumes:
+      - ./wordpress/wp-content/plugins/khesht-core:/var/www/html/wp-content/plugins/khesht-core
+      - ./wordpress/wp-content/themes/khesht-headless:/var/www/html/wp-content/themes/khesht-headless
+      - wp_data:/var/www/html
+
+volumes:
+  db_data:
+  wp_data:

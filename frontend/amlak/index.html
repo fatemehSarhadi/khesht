@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    {{include:head}}
+    <title>املاک | خشت ۱۲۳</title>
+    <meta name="description" content="فایل‌های ملکی خشت: مسکونی، زمین، باغ و باغچه، تجاری و اداری، صنعتی و کشاورزی با فیلتر نوع، معامله، منطقه، قیمت و متراژ." />
+    <link rel="canonical" href="/amlak/" />
+    <meta property="og:title" content="املاک | خشت ۱۲۳" />
+    <meta property="og:description" content="فایل‌های ملکی خشت: مسکونی، زمین، باغ و باغچه، تجاری و اداری، صنعتی و کشاورزی با فیلتر نوع، معامله، منطقه، قیمت و متراژ." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fa_IR" />
+    
+  </head>
+  <body data-page="amlak">
+    {{include:icons}}
+    {{include:header}}
+    <main id="main">
+      <section class="hero" data-page="amlak">
+        <!-- جای عکس: public/media/hero-amlak.jpg -->
+        <img class="hero__image" src="/media/hero-amlak.jpg" alt="دفتر املاک خشت" />
+        <div class="hero__content">
+          
+          <h1>فراتر از یک ملک</h1>
+          <p>جایی برای ریشه کردن<br/>جایی برای ساختن</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <form class="filters" data-property-filters data-reveal>
+            <label>نوع ملک<select name="type"><option value="">همه</option><option value="economic">فایل‌های اقتصادی</option><option value="residential">مسکونی</option><option value="land">زمین</option><option value="garden">باغ و باغچه</option><option value="commercial">تجاری و اداری</option><option value="industrial">صنعتی</option><option value="agri">کشاورزی و دامپروری</option></select></label>
+            <label>نوع معامله<select name="deal"><option value="">همه</option><option value="buy">خرید</option><option value="rahn">رهن</option><option value="rahn-rent">رهن،اجاره</option><option value="presale">پیش خرید</option><option value="partnership">مشارکت در ساخت</option></select></label>
+            <label>شهر<select name="city"><option value="">همه</option><option value="karaj">کرج</option></select></label>
+            <label>منطقه<select name="region"><option value="">همه</option><option value="region-1">منطقه نمونه</option></select></label>
+            <label>محله<select name="neighborhood"><option value="">همه</option><option value="mehrshahr">مهرشهر</option></select></label>
+            <label>حداقل قیمت (تومان)<input name="price_min" inputmode="numeric" /></label>
+            <label>حداکثر قیمت (تومان)<input name="price_max" inputmode="numeric" /></label>
+            <label>حداقل متراژ<input name="area_min" inputmode="numeric" /></label>
+            <label>حداکثر متراژ<input name="area_max" inputmode="numeric" /></label>
+            <label>فایل‌های ویژه<select name="featured"><option value="">همه</option><option value="1">فقط ویژه</option></select></label>
+            <button class="btn" type="submit"><svg class="icon"><use href="#i-check"/></svg>اعمال فیلتر</button>
+          </form>
+          <div class="grid grid--3" data-property-grid data-property-all></div>
+        </div>
+      </section>
+      <section class="section section--paper" id="reviews" data-reviews>
+        <div class="wrap">
+          <div class="section__head section__head--center" data-reveal>
+            <p class="eyebrow">نظر مشتریان خشت</p>
+            <h2>تجربه مشتریان</h2>
+            <p class="lede">برای ثبت نظر، ثبت‌نام کنید؛ رمز ورود برای شما پیامک می‌شود.</p>
+          </div>
+          <div class="reviews__bar" data-reveal>
+            <div class="reviews__summary" data-reviews-summary></div>
+            <div class="reviews__auth" data-reviews-auth></div>
+          </div>
+          <div class="grid grid--3 reviews__grid" data-reviews-list></div>
+          <p class="lede" data-reviews-empty style="text-align:center">هنوز نظری منتشر نشده است. اولین نفر باشید.</p>
+          <p style="text-align:center;margin-top:28px"><button class="btn btn--outline" type="button" data-reviews-more hidden>نمایش نظرهای بیشتر</button></p>
+          <div class="review-form-wrap" data-review-form></div>
+        </div>
+      </section>
+      <section class="cta-section">
+        <div class="wrap">
+          <div class="cta-card" data-reveal>
+            <div class="cta-card__text">
+              <p class="eyebrow">مشاوره</p>
+              <h2>مشاوره با کارشناسان خشت</h2>
+              <p>برای خرید، فروش، رهن، اجاره، ساخت‌وساز یا مشارکت به نظر کارشناسی نیاز دارید؟ درخواست خود را ثبت کنید تا کارشناسان ما با شما تماس بگیرند.</p>
+              <button class="btn" type="button" data-open-consult><svg class="icon"><use href="#i-chat"/></svg>درخواست مشاوره</button>
+            </div>
+            <div class="cta-card__media"><img src="/media/consult.jpg" alt="میز مشاوره خشت" loading="lazy" /></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{include:consult-modal}}
+    {{include:footer}}
+  </body>
+</html>
