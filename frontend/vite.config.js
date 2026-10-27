@@ -11,6 +11,8 @@ function page(rel) {
 }
 
 export default {
+  // GitHub Pages serves project sites from /<repo>/ — the workflow passes VITE_BASE=/<repo>/
+  base: process.env.VITE_BASE || "/",
   plugins: [htmlPartials(), kheshtDev()],
   appType: "mpa",
   build: {

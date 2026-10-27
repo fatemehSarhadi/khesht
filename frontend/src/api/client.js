@@ -1,4 +1,16 @@
 const DEFAULT_BASE = "";
+const DEMO = import.meta.env.VITE_DEMO === "1";
+
+async function demo(method, path, params, body, headers) {
+  const { demoCall } = await import("./demo.js");
+  const res = demoCall(method, path, params, body, headers) || { status: 404, json: {} };
+  if (res.status >= 400) {
+    const error = new Error(`${method} ${path} ${res.status}`);
+    error.payload = res.json;
+    throw error;
+  }
+  return res.json;
+}
 
 export function apiBase() {
   const env = import.meta.env.VITE_API_BASE || "";
@@ -6,6 +18,7 @@ export function apiBase() {
 }
 
 export async function apiGet(path, params = {}, headers = {}) {
+  if (DEMO) return demo("GET", path, params, null, headers);
   const url = new URL(`${apiBase()}${path}`, window.location.origin);
   Object.entries(params).forEach(([key, value]) => {
     if (value !== undefined && value !== "" && value !== null) {
@@ -18,6 +31,7 @@ export async function apiGet(path, params = {}, headers = {}) {
 }
 
 export async function apiPost(path, body, headers = {}) {
+  if (DEMO) return demo("POST", path, {}, body, headers);
   const res = await fetch(`${apiBase()}${path}`, {
     method: "POST",
     headers: { "Content-Type": "application/json", ...headers },

@@ -1,3 +1,4 @@
+import { initBase, initDemoBanner } from "./base.js";
 import { initHeader } from "./header.js";
 import { initConsultation } from "./consultation.js";
 import { initCollaborationForm } from "./collaboration.js";
@@ -16,6 +17,8 @@ import { initFx, initScroll } from "./fx.js";
 
 import "../styles/main.css";
 
+initBase();
+initDemoBanner();
 initHeader();
 initConsultation();
 initCollaborationForm();
